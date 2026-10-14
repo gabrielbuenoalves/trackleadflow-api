@@ -56,16 +56,29 @@
     <Project Path="src/Modules/WhatsApp/TrackLeadFlow.Modules.WhatsApp.Infrastructure/TrackLeadFlow.Modules.WhatsApp.Infrastructure.csproj" />
   </Folder>
   <Folder Name="/tests/" />
+  <Folder Name="/tests/Architecture/">
+    <Project Path="tests/Architecture/TrackLeadFlow.Architecture.Tests/TrackLeadFlow.Architecture.Tests.csproj" />
+  </Folder>
+  <Folder Name="/tests/Persistence/">
+    <Project Path="tests/Persistence/TrackLeadFlow.Persistence.Tests/TrackLeadFlow.Persistence.Tests.csproj" />
+  </Folder>
   <Folder Name="/tests/Marketing/">
+    <Project Path="tests/Marketing/TrackLeadFlow.Modules.Marketing.Application.Tests/TrackLeadFlow.Modules.Marketing.Application.Tests.csproj" />
     <Project Path="tests/Marketing/TrackLeadFlow.Modules.Marketing.Domain.Tests/TrackLeadFlow.Modules.Marketing.Domain.Tests.csproj" />
   </Folder>
   <Folder Name="/tests/Operator/">
+    <Project Path="tests/Operator/TrackLeadFlow.Modules.Operator.Application.Tests/TrackLeadFlow.Modules.Operator.Application.Tests.csproj" />
     <Project Path="tests/Operator/TrackLeadFlow.Modules.Operator.Domain.Tests/TrackLeadFlow.Modules.Operator.Domain.Tests.csproj" />
   </Folder>
+  <Folder Name="/tests/Payments/">
+    <Project Path="tests/Payments/TrackLeadFlow.Modules.Payments.Infrastructure.Tests/TrackLeadFlow.Modules.Payments.Infrastructure.Tests.csproj" />
+  </Folder>
   <Folder Name="/tests/Qualification/">
+    <Project Path="tests/Qualification/TrackLeadFlow.Modules.Qualification.Application.Tests/TrackLeadFlow.Modules.Qualification.Application.Tests.csproj" />
     <Project Path="tests/Qualification/TrackLeadFlow.Modules.Qualification.Domain.Tests/TrackLeadFlow.Modules.Qualification.Domain.Tests.csproj" />
   </Folder>
   <Folder Name="/tests/WhatsApp/">
     <Project Path="tests/WhatsApp/TrackLeadFlow.Modules.WhatsApp.Application.Tests/TrackLeadFlow.Modules.WhatsApp.Application.Tests.csproj" />
+    <Project Path="tests/WhatsApp/TrackLeadFlow.Modules.WhatsApp.Infrastructure.Tests/TrackLeadFlow.Modules.WhatsApp.Infrastructure.Tests.csproj" />
   </Folder>
 </Solution>

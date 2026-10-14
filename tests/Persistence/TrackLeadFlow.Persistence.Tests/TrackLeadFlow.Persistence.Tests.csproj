@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <RootNamespace>TrackLeadFlow.Persistence.Tests</RootNamespace>
+    <IsTestProject>true</IsTestProject>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.14.1" />
+    <PackageReference Include="xunit" Version="2.9.3" />
+    <PackageReference Include="xunit.runner.visualstudio" Version="3.1.4">
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+      <PrivateAssets>all</PrivateAssets>
+    </PackageReference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\src\BuildingBlocks\TrackLeadFlow.Infrastructure\TrackLeadFlow.Infrastructure.csproj" />
+    <ProjectReference Include="..\..\..\src\Modules\Identity\TrackLeadFlow.Modules.Identity.Infrastructure\TrackLeadFlow.Modules.Identity.Infrastructure.csproj" />
+    <ProjectReference Include="..\..\..\src\Modules\WhatsApp\TrackLeadFlow.Modules.WhatsApp.Infrastructure\TrackLeadFlow.Modules.WhatsApp.Infrastructure.csproj" />
+    <ProjectReference Include="..\..\..\src\Modules\Qualification\TrackLeadFlow.Modules.Qualification.Infrastructure\TrackLeadFlow.Modules.Qualification.Infrastructure.csproj" />
+    <ProjectReference Include="..\..\..\src\Modules\FollowUp\TrackLeadFlow.Modules.FollowUp.Infrastructure\TrackLeadFlow.Modules.FollowUp.Infrastructure.csproj" />
+    <ProjectReference Include="..\..\..\src\Modules\Attendance\TrackLeadFlow.Modules.Attendance.Infrastructure\TrackLeadFlow.Modules.Attendance.Infrastructure.csproj" />
+    <ProjectReference Include="..\..\..\src\Modules\Payments\TrackLeadFlow.Modules.Payments.Infrastructure\TrackLeadFlow.Modules.Payments.Infrastructure.csproj" />
+    <ProjectReference Include="..\..\..\src\Modules\Marketing\TrackLeadFlow.Modules.Marketing.Infrastructure\TrackLeadFlow.Modules.Marketing.Infrastructure.csproj" />
+  </ItemGroup>
+</Project>

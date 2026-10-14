@@ -5,4 +5,7 @@
   <ItemGroup>
     <ProjectReference Include="..\TrackLeadFlow.SharedKernel\TrackLeadFlow.SharedKernel.csproj" />
   </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Npgsql" Version="9.0.3" />
+  </ItemGroup>
 </Project>
