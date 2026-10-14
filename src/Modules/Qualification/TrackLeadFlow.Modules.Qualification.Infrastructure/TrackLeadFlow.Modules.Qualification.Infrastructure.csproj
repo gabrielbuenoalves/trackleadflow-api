@@ -1,0 +1,9 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <RootNamespace>TrackLeadFlow.Modules.Qualification.Infrastructure</RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\TrackLeadFlow.Modules.Qualification.Application\TrackLeadFlow.Modules.Qualification.Application.csproj" />
+    <ProjectReference Include="..\..\..\BuildingBlocks\TrackLeadFlow.Infrastructure\TrackLeadFlow.Infrastructure.csproj" />
+  </ItemGroup>
+</Project>

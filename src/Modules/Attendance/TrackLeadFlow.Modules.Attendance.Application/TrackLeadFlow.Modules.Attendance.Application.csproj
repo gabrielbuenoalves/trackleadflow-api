@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <RootNamespace>TrackLeadFlow.Modules.Attendance.Application</RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\TrackLeadFlow.Modules.Attendance.Domain\TrackLeadFlow.Modules.Attendance.Domain.csproj" />
+    <ProjectReference Include="..\TrackLeadFlow.Modules.Attendance.Contracts\TrackLeadFlow.Modules.Attendance.Contracts.csproj" />
+    <ProjectReference Include="..\..\..\BuildingBlocks\TrackLeadFlow.SharedKernel\TrackLeadFlow.SharedKernel.csproj" />
+    <ProjectReference Include="..\..\Qualification\TrackLeadFlow.Modules.Qualification.Contracts\TrackLeadFlow.Modules.Qualification.Contracts.csproj" />
+    <ProjectReference Include="..\..\WhatsApp\TrackLeadFlow.Modules.WhatsApp.Contracts\TrackLeadFlow.Modules.WhatsApp.Contracts.csproj" />
+    <ProjectReference Include="..\..\Payments\TrackLeadFlow.Modules.Payments.Contracts\TrackLeadFlow.Modules.Payments.Contracts.csproj" />
+    <ProjectReference Include="..\..\Identity\TrackLeadFlow.Modules.Identity.Contracts\TrackLeadFlow.Modules.Identity.Contracts.csproj" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,9 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <RootNamespace>TrackLeadFlow.Modules.FollowUp.Infrastructure</RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\TrackLeadFlow.Modules.FollowUp.Application\TrackLeadFlow.Modules.FollowUp.Application.csproj" />
+    <ProjectReference Include="..\..\..\BuildingBlocks\TrackLeadFlow.Infrastructure\TrackLeadFlow.Infrastructure.csproj" />
+  </ItemGroup>
+</Project>

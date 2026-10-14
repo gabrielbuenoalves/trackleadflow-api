@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <RootNamespace>TrackLeadFlow.Api</RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\BuildingBlocks\TrackLeadFlow.Infrastructure\TrackLeadFlow.Infrastructure.csproj" />
+    <ProjectReference Include="..\..\Modules\Identity\TrackLeadFlow.Modules.Identity.Infrastructure\TrackLeadFlow.Modules.Identity.Infrastructure.csproj" />
+    <ProjectReference Include="..\..\Modules\WhatsApp\TrackLeadFlow.Modules.WhatsApp.Infrastructure\TrackLeadFlow.Modules.WhatsApp.Infrastructure.csproj" />
+    <ProjectReference Include="..\..\Modules\Qualification\TrackLeadFlow.Modules.Qualification.Infrastructure\TrackLeadFlow.Modules.Qualification.Infrastructure.csproj" />
+    <ProjectReference Include="..\..\Modules\FollowUp\TrackLeadFlow.Modules.FollowUp.Infrastructure\TrackLeadFlow.Modules.FollowUp.Infrastructure.csproj" />
+    <ProjectReference Include="..\..\Modules\Attendance\TrackLeadFlow.Modules.Attendance.Infrastructure\TrackLeadFlow.Modules.Attendance.Infrastructure.csproj" />
+    <ProjectReference Include="..\..\Modules\Payments\TrackLeadFlow.Modules.Payments.Infrastructure\TrackLeadFlow.Modules.Payments.Infrastructure.csproj" />
+    <ProjectReference Include="..\..\Modules\Marketing\TrackLeadFlow.Modules.Marketing.Infrastructure\TrackLeadFlow.Modules.Marketing.Infrastructure.csproj" />
+    <ProjectReference Include="..\..\Modules\Operator\TrackLeadFlow.Modules.Operator.Infrastructure\TrackLeadFlow.Modules.Operator.Infrastructure.csproj" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,9 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <RootNamespace>TrackLeadFlow.Modules.Attendance.Infrastructure</RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\TrackLeadFlow.Modules.Attendance.Application\TrackLeadFlow.Modules.Attendance.Application.csproj" />
+    <ProjectReference Include="..\..\..\BuildingBlocks\TrackLeadFlow.Infrastructure\TrackLeadFlow.Infrastructure.csproj" />
+  </ItemGroup>
+</Project>

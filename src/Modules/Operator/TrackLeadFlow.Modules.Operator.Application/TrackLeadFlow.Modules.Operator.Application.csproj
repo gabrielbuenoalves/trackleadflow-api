@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <RootNamespace>TrackLeadFlow.Modules.Operator.Application</RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\TrackLeadFlow.Modules.Operator.Domain\TrackLeadFlow.Modules.Operator.Domain.csproj" />
+    <ProjectReference Include="..\TrackLeadFlow.Modules.Operator.Contracts\TrackLeadFlow.Modules.Operator.Contracts.csproj" />
+    <ProjectReference Include="..\..\..\BuildingBlocks\TrackLeadFlow.SharedKernel\TrackLeadFlow.SharedKernel.csproj" />
+    <ProjectReference Include="..\..\WhatsApp\TrackLeadFlow.Modules.WhatsApp.Contracts\TrackLeadFlow.Modules.WhatsApp.Contracts.csproj" />
+    <ProjectReference Include="..\..\Payments\TrackLeadFlow.Modules.Payments.Contracts\TrackLeadFlow.Modules.Payments.Contracts.csproj" />
+    <ProjectReference Include="..\..\Qualification\TrackLeadFlow.Modules.Qualification.Contracts\TrackLeadFlow.Modules.Qualification.Contracts.csproj" />
+    <ProjectReference Include="..\..\FollowUp\TrackLeadFlow.Modules.FollowUp.Contracts\TrackLeadFlow.Modules.FollowUp.Contracts.csproj" />
+    <ProjectReference Include="..\..\Marketing\TrackLeadFlow.Modules.Marketing.Contracts\TrackLeadFlow.Modules.Marketing.Contracts.csproj" />
+    <ProjectReference Include="..\..\Identity\TrackLeadFlow.Modules.Identity.Contracts\TrackLeadFlow.Modules.Identity.Contracts.csproj" />
+  </ItemGroup>
+</Project>

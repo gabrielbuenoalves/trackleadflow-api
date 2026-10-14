@@ -1,0 +1,71 @@
+<Solution>
+  <Folder Name="/building-blocks/">
+    <Project Path="src/BuildingBlocks/TrackLeadFlow.Infrastructure/TrackLeadFlow.Infrastructure.csproj" />
+    <Project Path="src/BuildingBlocks/TrackLeadFlow.SharedKernel/TrackLeadFlow.SharedKernel.csproj" />
+  </Folder>
+  <Folder Name="/host/">
+    <Project Path="src/Host/TrackLeadFlow.Api/TrackLeadFlow.Api.csproj" />
+  </Folder>
+  <Folder Name="/modules/" />
+  <Folder Name="/modules/Attendance/">
+    <Project Path="src/Modules/Attendance/TrackLeadFlow.Modules.Attendance.Application/TrackLeadFlow.Modules.Attendance.Application.csproj" />
+    <Project Path="src/Modules/Attendance/TrackLeadFlow.Modules.Attendance.Contracts/TrackLeadFlow.Modules.Attendance.Contracts.csproj" />
+    <Project Path="src/Modules/Attendance/TrackLeadFlow.Modules.Attendance.Domain/TrackLeadFlow.Modules.Attendance.Domain.csproj" />
+    <Project Path="src/Modules/Attendance/TrackLeadFlow.Modules.Attendance.Infrastructure/TrackLeadFlow.Modules.Attendance.Infrastructure.csproj" />
+  </Folder>
+  <Folder Name="/modules/FollowUp/">
+    <Project Path="src/Modules/FollowUp/TrackLeadFlow.Modules.FollowUp.Application/TrackLeadFlow.Modules.FollowUp.Application.csproj" />
+    <Project Path="src/Modules/FollowUp/TrackLeadFlow.Modules.FollowUp.Contracts/TrackLeadFlow.Modules.FollowUp.Contracts.csproj" />
+    <Project Path="src/Modules/FollowUp/TrackLeadFlow.Modules.FollowUp.Domain/TrackLeadFlow.Modules.FollowUp.Domain.csproj" />
+    <Project Path="src/Modules/FollowUp/TrackLeadFlow.Modules.FollowUp.Infrastructure/TrackLeadFlow.Modules.FollowUp.Infrastructure.csproj" />
+  </Folder>
+  <Folder Name="/modules/Identity/">
+    <Project Path="src/Modules/Identity/TrackLeadFlow.Modules.Identity.Application/TrackLeadFlow.Modules.Identity.Application.csproj" />
+    <Project Path="src/Modules/Identity/TrackLeadFlow.Modules.Identity.Contracts/TrackLeadFlow.Modules.Identity.Contracts.csproj" />
+    <Project Path="src/Modules/Identity/TrackLeadFlow.Modules.Identity.Domain/TrackLeadFlow.Modules.Identity.Domain.csproj" />
+    <Project Path="src/Modules/Identity/TrackLeadFlow.Modules.Identity.Infrastructure/TrackLeadFlow.Modules.Identity.Infrastructure.csproj" />
+  </Folder>
+  <Folder Name="/modules/Marketing/">
+    <Project Path="src/Modules/Marketing/TrackLeadFlow.Modules.Marketing.Application/TrackLeadFlow.Modules.Marketing.Application.csproj" />
+    <Project Path="src/Modules/Marketing/TrackLeadFlow.Modules.Marketing.Contracts/TrackLeadFlow.Modules.Marketing.Contracts.csproj" />
+    <Project Path="src/Modules/Marketing/TrackLeadFlow.Modules.Marketing.Domain/TrackLeadFlow.Modules.Marketing.Domain.csproj" />
+    <Project Path="src/Modules/Marketing/TrackLeadFlow.Modules.Marketing.Infrastructure/TrackLeadFlow.Modules.Marketing.Infrastructure.csproj" />
+  </Folder>
+  <Folder Name="/modules/Operator/">
+    <Project Path="src/Modules/Operator/TrackLeadFlow.Modules.Operator.Application/TrackLeadFlow.Modules.Operator.Application.csproj" />
+    <Project Path="src/Modules/Operator/TrackLeadFlow.Modules.Operator.Contracts/TrackLeadFlow.Modules.Operator.Contracts.csproj" />
+    <Project Path="src/Modules/Operator/TrackLeadFlow.Modules.Operator.Domain/TrackLeadFlow.Modules.Operator.Domain.csproj" />
+    <Project Path="src/Modules/Operator/TrackLeadFlow.Modules.Operator.Infrastructure/TrackLeadFlow.Modules.Operator.Infrastructure.csproj" />
+  </Folder>
+  <Folder Name="/modules/Payments/">
+    <Project Path="src/Modules/Payments/TrackLeadFlow.Modules.Payments.Application/TrackLeadFlow.Modules.Payments.Application.csproj" />
+    <Project Path="src/Modules/Payments/TrackLeadFlow.Modules.Payments.Contracts/TrackLeadFlow.Modules.Payments.Contracts.csproj" />
+    <Project Path="src/Modules/Payments/TrackLeadFlow.Modules.Payments.Domain/TrackLeadFlow.Modules.Payments.Domain.csproj" />
+    <Project Path="src/Modules/Payments/TrackLeadFlow.Modules.Payments.Infrastructure/TrackLeadFlow.Modules.Payments.Infrastructure.csproj" />
+  </Folder>
+  <Folder Name="/modules/Qualification/">
+    <Project Path="src/Modules/Qualification/TrackLeadFlow.Modules.Qualification.Application/TrackLeadFlow.Modules.Qualification.Application.csproj" />
+    <Project Path="src/Modules/Qualification/TrackLeadFlow.Modules.Qualification.Contracts/TrackLeadFlow.Modules.Qualification.Contracts.csproj" />
+    <Project Path="src/Modules/Qualification/TrackLeadFlow.Modules.Qualification.Domain/TrackLeadFlow.Modules.Qualification.Domain.csproj" />
+    <Project Path="src/Modules/Qualification/TrackLeadFlow.Modules.Qualification.Infrastructure/TrackLeadFlow.Modules.Qualification.Infrastructure.csproj" />
+  </Folder>
+  <Folder Name="/modules/WhatsApp/">
+    <Project Path="src/Modules/WhatsApp/TrackLeadFlow.Modules.WhatsApp.Application/TrackLeadFlow.Modules.WhatsApp.Application.csproj" />
+    <Project Path="src/Modules/WhatsApp/TrackLeadFlow.Modules.WhatsApp.Contracts/TrackLeadFlow.Modules.WhatsApp.Contracts.csproj" />
+    <Project Path="src/Modules/WhatsApp/TrackLeadFlow.Modules.WhatsApp.Domain/TrackLeadFlow.Modules.WhatsApp.Domain.csproj" />
+    <Project Path="src/Modules/WhatsApp/TrackLeadFlow.Modules.WhatsApp.Infrastructure/TrackLeadFlow.Modules.WhatsApp.Infrastructure.csproj" />
+  </Folder>
+  <Folder Name="/tests/" />
+  <Folder Name="/tests/Marketing/">
+    <Project Path="tests/Marketing/TrackLeadFlow.Modules.Marketing.Domain.Tests/TrackLeadFlow.Modules.Marketing.Domain.Tests.csproj" />
+  </Folder>
+  <Folder Name="/tests/Operator/">
+    <Project Path="tests/Operator/TrackLeadFlow.Modules.Operator.Domain.Tests/TrackLeadFlow.Modules.Operator.Domain.Tests.csproj" />
+  </Folder>
+  <Folder Name="/tests/Qualification/">
+    <Project Path="tests/Qualification/TrackLeadFlow.Modules.Qualification.Domain.Tests/TrackLeadFlow.Modules.Qualification.Domain.Tests.csproj" />
+  </Folder>
+  <Folder Name="/tests/WhatsApp/">
+    <Project Path="tests/WhatsApp/TrackLeadFlow.Modules.WhatsApp.Application.Tests/TrackLeadFlow.Modules.WhatsApp.Application.Tests.csproj" />
+  </Folder>
+</Solution>

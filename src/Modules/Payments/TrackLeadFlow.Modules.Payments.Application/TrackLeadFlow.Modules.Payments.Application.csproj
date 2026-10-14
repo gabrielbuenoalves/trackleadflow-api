@@ -1,0 +1,10 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <RootNamespace>TrackLeadFlow.Modules.Payments.Application</RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\TrackLeadFlow.Modules.Payments.Domain\TrackLeadFlow.Modules.Payments.Domain.csproj" />
+    <ProjectReference Include="..\TrackLeadFlow.Modules.Payments.Contracts\TrackLeadFlow.Modules.Payments.Contracts.csproj" />
+    <ProjectReference Include="..\..\..\BuildingBlocks\TrackLeadFlow.SharedKernel\TrackLeadFlow.SharedKernel.csproj" />
+  </ItemGroup>
+</Project>

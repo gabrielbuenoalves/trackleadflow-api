@@ -1,0 +1,11 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <RootNamespace>TrackLeadFlow.Modules.WhatsApp.Application</RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\TrackLeadFlow.Modules.WhatsApp.Domain\TrackLeadFlow.Modules.WhatsApp.Domain.csproj" />
+    <ProjectReference Include="..\TrackLeadFlow.Modules.WhatsApp.Contracts\TrackLeadFlow.Modules.WhatsApp.Contracts.csproj" />
+    <ProjectReference Include="..\..\..\BuildingBlocks\TrackLeadFlow.SharedKernel\TrackLeadFlow.SharedKernel.csproj" />
+    <ProjectReference Include="..\..\Identity\TrackLeadFlow.Modules.Identity.Contracts\TrackLeadFlow.Modules.Identity.Contracts.csproj" />
+  </ItemGroup>
+</Project>
